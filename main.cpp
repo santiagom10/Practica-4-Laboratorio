@@ -3,7 +3,7 @@
 int main(){
 
     red red_Principal;
-    string ruta = "../Unidad4/Archivos/grafo.txt";
+    string ruta = "C:/grafo.txt";
     srand(time(NULL));
     red_Principal.menu(ruta);
 
