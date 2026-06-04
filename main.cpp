@@ -1,9 +1,13 @@
-#include <iostream>
+#include <enrutador.h>
+#include <red.h>
+int main(){
 
-using namespace std;
+    red red_Principal;
+    string ruta = "../Unidad4/Archivos/grafo.txt";
+    srand(time(NULL));
+    red_Principal.menu(ruta);
 
-int main()
-{
-    cout << "Hello World!" << endl;
-    return 0;
 }
+
+
+
